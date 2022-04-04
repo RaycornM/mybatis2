@@ -1,0 +1,6 @@
+面向接口的mapper开发
+
+com.tedu.bean
+com.tedu.controller
+com.tedu.service
+com.tedu.mapper  一个是mapper接口，一个是mapper实现类（被xml代替）

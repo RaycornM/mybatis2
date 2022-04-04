@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <!-- namespace="本xml对应的接口全路径" -->
+<mapper namespace="com.tedu.mapper.EmpMapper">
+<!-- 本select id 必须和接口中的方法名称相同
+	 传入值和返回值必须和方法的参数与返回值相同 -->
+  <select id="selectAllEmp" resultType="com.tedu.bean.EmpBean">
+    select * from emp
+  </select>
+</mapper>
